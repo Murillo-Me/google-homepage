@@ -1,0 +1,102 @@
+html {
+    position: relative;
+    min-height: 100vh;
+}
+
+/* HEADER SECTION */
+
+header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 0.9rem;
+}
+
+ul {
+    list-style-type: none;
+    margin-block: 0.8rem;
+    padding-inline: 1.5rem;
+}
+
+li {
+    display: inline;
+    margin-inline: 0.3rem;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(66, 66, 66);
+}
+
+header span.material-icons {
+    vertical-align: -7px;
+}
+
+header button {
+    background-image: -webkit-linear-gradient(top, rgb(67, 135, 253), rgb(70, 131, 234));;
+    color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    margin-left: 0.5rem;
+    font-weight: bold;
+}
+
+/* MAIN SECTION */
+
+main {
+    min-height: 60vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 2.5rem;
+}
+
+#logo {
+    width: clamp(100px, 300px, 600px);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+main span.material-icons {
+    vertical-align: -8px;
+    margin-inline: 0.5rem;
+}
+
+.search-input-container {
+    padding: 10px;
+    border: 1px solid lightgray;
+    border-radius: 30px;
+}
+
+input#search-input {
+    height: 1.5rem;
+    width: clamp(100px, 400px, 1000px);
+    border: none;
+}
+
+.search-btn-container button {
+    padding: 10px 20px;
+    margin: 20px 5px;
+    border: none;
+    border-radius: 5px;
+    color: #5F6368;
+}
+
+/* FOOTER SECTION */
+
+footer {
+    position:absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(242, 242, 242);
+    color: #5f6368;
+}
